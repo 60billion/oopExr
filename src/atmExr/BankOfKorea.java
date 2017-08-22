@@ -1,18 +1,11 @@
 package atmExr;
 
-public class BankOfKorea {
-	
-	//constructor
-	public BankOfKorea() {}
+public class BankOfKorea extends Bank {
 
-	public void statement() {}
+	public BankOfKorea(String userName, String phone, String address, int bankNumber) {
+		super(userName, phone, address, bankNumber);
+		// TODO Auto-generated constructor stub
+	}
 	
-	public void balance() {}
-	
-	public void wire() {}
-	
-	public void deposit() {}
-	
-	public void withdraw() {}
 
 }
